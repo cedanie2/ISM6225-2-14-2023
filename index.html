@@ -1,16 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+    <style>
+        body{background-color: powderblue;}
+        h1{color: chartreuse;}
+        p{color: fuchsia;}
+        table, th, td{border: 1px solid black;}
+        th,td{background-color: lightpink;}
+    </style>
     <body>
-        <h1>Hello World!</h1>
-        <p>This is a paragraph!</p>
-        <strong>This is some content.</strong>
+        <h1 style="background-color: rgb(7, 134, 245);">Hello World!</h1>
+        <!-- Again, don't put comments that reveal security or privacy information.
+        Keeps allowing you to make comments until it sees the closing tag. 
+        -->
+        <form>
+            <label for="first_name">First Name</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="last_name">Last Name</label><br>
+            <input type="text" id="lname" name="lname">
+            <br>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css" name="fav_language" value = "CSS">
+            <label for="css">CSS</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">JavaScript</label>
+        </form>
+        <ol>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Water</li>
+        </ol>
+        <p>This is a quote by Steve Jobs.</p>
+        <blockquote cite="https://www.uschamber.com/co/start/strategy/steve-jobs-quotes-for-business-owners">
+            You can’t connect the dots looking forward; 
+            you can only connect them looking backwards. 
+            So you have to trust that the dots will somehow 
+            connect in your future.
+            You can’t connect the dots looking forward; you can only connect them looking backwards. So you have to trust that the dots will somehow connect in your future.
+            You can’t connect the dots looking forward; you can only connect them looking backwards. So you have to trust that the dots will somehow connect in your future.
+            You can’t connect the dots looking forward; you can only connect them looking backwards. So you have to trust that the dots will somehow connect in your future.
+            You can’t connect the dots looking forward; you can only connect them looking backwards. So you have to trust that the dots will somehow connect in your future.
+
+        </blockquote>
         <br><br>
-        <i>This is some more content.</i>
-        <br>
+        <table style="width:100%">
+            <tr>
+                <th>Company</th>
+                <th>Contact</th>
+                <th>Country</th>
+            </tr>
+            <tr>
+                <td>Widget Company</td>
+                <td>Clinton Daniel</td>
+                <td>USA</td>
+            </tr>
+            <tr>
+                <td>Raymond James</td>
+                <td>Dave Doe</td>
+                <td>India</td>
+            </tr>
+        </table>
+        <br><br><br>
         <a href="https://www.google.com/">Click here to Visit Google</a>
         <br><br>
         <img src="img/puppy.jpg.jfif" alt="Picture of a Puppy">
         <p style="color:rgb(255, 0, 0)">This is a red paragraph</p>
-
+        <p title="This is a tooltip">This a paragraph with a tooltip.</p>
+        <p>Let's do some formatting of <sup>superscript</sup> text. This is <sub>Subscript.</sub> text.</p>
     </body>
 </html>
